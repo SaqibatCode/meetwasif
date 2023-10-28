@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  width: 5px;
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+::-webkit-scrollbar-thumb{
+  --tw-text-opacity: 1;
+  background: rgb(59 130 246 / var(--tw-text-opacity));;
+  border-radius: 10px;
+}
+
+body,
+html {
+  background-color: #000000;
+  color: white;
+  font-family: "Anton", sans-serif;
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+.text-stroke {
+  font-family: sans-serif;
+  text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff,
+    1px -1pxrgb (255, 255, 255) 000, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
