@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "../Components/Reuseable/Button";
-import assetsAndComponents  from "../All-Images/index";
+import assetsAndComponents from "../All-Images/index";
 import HorizontalBreak from "../Components/Reuseable/HorizontalBreak";
 
-const { BackGroundImg, textBottomImg, Portfolio1, smallImg } = assetsAndComponents;
-
+const { BackGroundImg, textBottomImg, Portfolio1, smallImg, Portfolio2 } =
+  assetsAndComponents;
 
 function Home() {
   return (
@@ -70,9 +70,16 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex">
+        <div className="flex justify-between w-full mt-20">
           <div>
-            <img src={Portfolio1} alt="" />
+            <img src={Portfolio1} alt="amazon-clone-portfolio-image" />
+            <h1 className="text-5xl mt-5">Amazon Clone</h1>
+            <h5 className="text-2xl mt-2 text-slate-400 uppercase">ReactJS | Redux</h5>
+          </div>
+          <div>
+          <h1 className="text-5xl mt-5">Stream Ease</h1>
+            <h5 className="text-2xl mt-2 mb-3 text-slate-400 uppercase">ReactJS | Bootstrap</h5>
+            <img src={Portfolio2} alt="amazon-clone-portfolio-image" />
           </div>
         </div>
       </section>
