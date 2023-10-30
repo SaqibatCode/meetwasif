@@ -3,7 +3,6 @@ import Button from "../Components/Reuseable/Button";
 import assetsAndComponents from "../All-Images/index";
 import HorizontalBreak from "../Components/Reuseable/HorizontalBreak";
 
-<<<<<<< HEAD
 const {
   BackGroundImg,
   textBottomImg,
@@ -14,10 +13,6 @@ const {
   Servicessection,
   ExperienceDesign,
 } = assetsAndComponents;
-=======
-const { BackGroundImg, textBottomImg, Portfolio1, smallImg, Portfolio2 } =
-  assetsAndComponents;
->>>>>>> e23d7f9c0d64ad663dffd16cfaa65b494e745375
 
 function Home() {
   return (
@@ -86,7 +81,6 @@ function Home() {
           </div>
         </div>
 
-<<<<<<< HEAD
         <div className="flex justify-between gap-20 w-full mt-20">
           <div>
             <img src={Portfolio1} alt="amazon-clone-portfolio-image" />
@@ -94,18 +88,6 @@ function Home() {
             <h5 className="text-2xl mt-2 text-slate-400 uppercase">
               ReactJS | Redux
             </h5>
-=======
-        <div className="flex justify-between w-full mt-20">
-          <div>
-            <img src={Portfolio1} alt="amazon-clone-portfolio-image" />
-            <h1 className="text-5xl mt-5">Amazon Clone</h1>
-            <h5 className="text-2xl mt-2 text-slate-400 uppercase">ReactJS | Redux</h5>
-          </div>
-          <div>
-          <h1 className="text-5xl mt-5">Stream Ease</h1>
-            <h5 className="text-2xl mt-2 mb-3 text-slate-400 uppercase">ReactJS | Bootstrap</h5>
-            <img src={Portfolio2} alt="amazon-clone-portfolio-image" />
->>>>>>> e23d7f9c0d64ad663dffd16cfaa65b494e745375
           </div>
           <div>
             <h1 className="text-5xl mt-5">Stream Ease</h1>
