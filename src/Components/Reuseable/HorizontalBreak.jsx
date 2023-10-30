@@ -1,11 +1,12 @@
 import React from "react";
 
-function HorizontalBreak() {
+function HorizontalBreak(props) {
   return (
-    <div className="w-4/5 m-auto">
+    <div className={`w-[${props.width}%] m-auto`}>
       <hr className="border border-1 border-white mt-20 mb-2" />
     </div>
   );
+  console.log(props.width);
 }
 
 export default HorizontalBreak;
