@@ -6,6 +6,8 @@ import Portfolio2 from "../Assets/portfolio2.png";
 import SERVICES from "../Assets/services.png";
 import Servicessection from "../Assets/services-section.png";
 import ExperienceDesign from "../Assets/experience.png"
+import Portfolio3 from "../Assets/Portfolio3.png"
+
 
 export default {
   BackGroundImg,
@@ -15,5 +17,6 @@ export default {
   Portfolio2,
   SERVICES,
   Servicessection,
-  ExperienceDesign
+  ExperienceDesign,
+  Portfolio3
 };
