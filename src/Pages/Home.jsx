@@ -12,6 +12,7 @@ const {
   SERVICES,
   Servicessection,
   ExperienceDesign,
+  Portfolio3
 } = assetsAndComponents;
 
 function Home() {
@@ -112,7 +113,7 @@ function Home() {
               Elementor | CSS | Javascript
             </h5>
             <img
-              src={Portfolio1}
+              src={Portfolio3}
               alt="amazon-clone-portfolio-image"
               className="mt-5"
             />

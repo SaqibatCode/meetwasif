@@ -15,7 +15,7 @@ function Navbar() {
 
         <h5
           className="text-white text-lg cursor-pointer"
-          onClick={() => setMenu(!menu)} // Toggle the menu state
+          onClick={() => setMenu(!menu)}
         >
           Menu
         </h5>
